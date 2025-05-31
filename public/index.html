@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🤐 ChatConfessions</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🤐 ChatConfessions</h1>
+        </header>
+        
+        <main>
+            <div class="chat-container">
+                <!-- User Input Box -->
+                <div class="glass-box input-box">
+                    <textarea id="userInput" placeholder="Share your thoughts freely, no judgments here..."></textarea>
+                    <button id="sendButton">Send</button>
+                </div>
+                
+                <!-- AI Mode Selection -->
+                <div class="mode-selector">
+                    <button class="mode-button active" id="supportiveMode">
+                        <span class="icon">🤗</span>
+                        <span class="label">Supportive Friend</span>
+                    </button>
+                    <button class="mode-button" id="bluntMode">
+                        <span class="icon">😒</span>
+                        <span class="label">Blunt Karen</span>
+                    </button>
+                    <button class="mode-button" id="mentorMode">
+                        <span class="icon">🧠</span>
+                        <span class="label">Wise Mentor</span>
+                    </button>
+                </div>
+                
+                <!-- Response Box -->
+                <div class="glass-box response-box">
+                    <div id="aiResponse">
+                        <!-- Initially empty -->
+                    </div>
+                </div>
+            </div>
+        </main>
+        
+        <footer>
+            <p>A safe space for introverts to express themselves</p>
+        </footer>
+    </div>
+
+    <script src="script.js" defer></script>
+
+</body>
+</html>

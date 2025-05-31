@@ -23,3 +23,4 @@ A simple chat app where users can anonymously confess their feelings and talk to
 - OpenRouter API key  
 - Internet connection
 
+![WhatsApp Image 2025-05-31 at 7 38 07 PM](https://github.com/user-attachments/assets/71f3405e-6e1f-4348-af90-18971b4215ad)
